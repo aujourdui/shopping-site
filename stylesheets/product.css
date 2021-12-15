@@ -1,0 +1,55 @@
+/* common */
+* {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* product header */
+.product__header {
+  position: sticky;
+  top: 0;
+  line-height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: gray;
+  padding: 0 2rem;
+}
+
+.productHeader__info {
+  color: white;
+}
+
+.productHeader__image {
+  cursor: pointer;
+}
+
+/* product image */
+.productImage__container {
+  display: flex;
+  justify-content: center;
+  background-color: darkgray;
+  padding: 3rem 0;
+}
+
+/* product info */
+.productInfo__container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: lightgray;
+  padding: 3rem 0;
+}
+
+.productInfo__container > div {
+  margin: 1rem 0;
+}
+
+#add__cart {
+  border: 1px solid black;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
